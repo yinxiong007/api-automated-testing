@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cc30971-b481-419d-b0ef-52e1cd2e5563" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_group_edit_py.coverage" NAME="Unittests in test_group_edit.py Coverage Results" MODIFIED="1568276162003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_api_py__1_.coverage" NAME="Unittests in test_api.py (1) Coverage Results" MODIFIED="1568969937939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试test/testcase" />
+    <SUITE FILE_PATH="coverage/UI$app_edit_del.coverage" NAME="app_edit_del Coverage Results" MODIFIED="1568862919429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/PO" />
+    <SUITE FILE_PATH="coverage/UI$api_edit.coverage" NAME="api_edit Coverage Results" MODIFIED="1568888716614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/PO" />
+    <SUITE FILE_PATH="coverage/UI$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1566539605387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/Website" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_unittest_py.coverage" NAME="Unittests in unittest框架.py Coverage Results" MODIFIED="1567591347234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/unittest" />
+    <SUITE FILE_PATH="coverage/UI$chrome.coverage" NAME="chrome Coverage Results" MODIFIED="1568968330033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试test/PO" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_search_py.coverage" NAME="Unittests in test_search.py Coverage Results" MODIFIED="1568267945640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_group_del_py.coverage" NAME="Unittests in test_group_del.py Coverage Results" MODIFIED="1568278707303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$group_edit.coverage" NAME="group_edit Coverage Results" MODIFIED="1569223623362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/PO" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_app_py.coverage" NAME="Unittests in test_app.py Coverage Results" MODIFIED="1570780414686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_app_TestApp.coverage" NAME="Unittests for test_app.TestApp Coverage Results" MODIFIED="1568863403360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$main.coverage" NAME="main Coverage Results" MODIFIED="1569230898055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_app_TestApp_test9_app_xiangqing.coverage" NAME="Unittests for test_app.TestApp.test9_app_xiangqing Coverage Results" MODIFIED="1568863569358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_api_Test_Api_test2_authorize.coverage" NAME="Unittests for test_api.Test_Api.test2_authorize Coverage Results" MODIFIED="1569304441956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_app_TestSearch_test3_app_creat.coverage" NAME="Unittests for test_app.TestSearch.test3_app_creat Coverage Results" MODIFIED="1568695179415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1568969416868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试test" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_group_creat_py.coverage" NAME="Unittests in test_group_creat.py Coverage Results" MODIFIED="1568267796842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_api_Test_Api_test1_search.coverage" NAME="Unittests for test_api.Test_Api.test1_search Coverage Results" MODIFIED="1568969862955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试test/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_api_Test_Api_test2_xiangqing_search.coverage" NAME="Unittests for test_api.Test_Api.test2_xiangqing_search Coverage Results" MODIFIED="1568883962485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_app_TestSearch_test4_app_edit.coverage" NAME="Unittests for test_app.TestSearch.test4_app_edit Coverage Results" MODIFIED="1568704019122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_app_TestApp_test8_app_search.coverage" NAME="Unittests for test_app.TestApp.test8_app_search Coverage Results" MODIFIED="1568874990001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_group_TestSearch_test1_group_creat.coverage" NAME="Unittests for test_group.TestSearch.test1_group_creat Coverage Results" MODIFIED="1568769416497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_api_py.coverage" NAME="Unittests in test_api.py Coverage Results" MODIFIED="1569295390952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1566527996127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/Website/test_case/page_object" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_for_test_group_TestGroup_test2_group_edit.coverage" NAME="Unittests for test_group.TestGroup.test2_group_edit Coverage Results" MODIFIED="1569224930411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+    <SUITE FILE_PATH="coverage/UI$Unittests_in_test_group_py.coverage" NAME="Unittests in test_group.py Coverage Results" MODIFIED="1570764779235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化测试/testcase" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="UI自动化测试" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api_edit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自动化测试/PO/api_edit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_api.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_edit_del.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/自动化测试/PO/app_edit_del.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="72" column="103" lean-forward="false" selection-start-line="72" selection-start-column="103" selection-end-line="72" selection-end-column="103" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/自动化测试/driver/driver.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_case/model/function.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_case/model/myunit.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_login.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_case/page_object/test_login.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_case/test_login.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_report/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_report/qq.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/run_test.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_report/BSTestRunner.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_case/page_object/BasePage.py" />
+        <option value="$PROJECT_DIR$/自动化测试/Website/test_case/page_object/LoginPage.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/search_page.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_login.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/login_page.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/base_page.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/group_creat.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_group_del.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_group_edit.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_group_creat.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/group_delete.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/app_creat.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_search.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/search_page.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/app_search.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/app_edit_del.py" />
+        <option value="$PROJECT_DIR$/自动化测试/main.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/testcase/test_app.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/testcase/test_group.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/PO/chrome.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/PO/api_edit.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/PO/api_search.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/main.py" />
+        <option value="$PROJECT_DIR$/自动化测试test/testcase/test_api.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_app.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_group.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/group_edit.py" />
+        <option value="$PROJECT_DIR$/自动化测试/testcase/test_api.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/chrome.py" />
+        <option value="$PROJECT_DIR$/自动化测试/PO/api_edit.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="31" />
+    <option name="width" value="1364" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UI自动化测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI自动化测试" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI自动化测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI自动化测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="PO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI自动化测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UI自动化测试" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化测试" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/软件/Python34练习/untitled/unittest练习" />
+    <property name="SearchEverywhereHistoryKey" value="LoginTest&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pact.PACT-20170616CE\PycharmProjects\UI自动化测试\自动化测试\PO" />
+      <recent name="C:\Users\pact.PACT-20170616CE\PycharmProjects\UI自动化测试\自动化测试\testcase" />
+      <recent name="C:\Users\pact.PACT-20170616CE\PycharmProjects\UI自动化测试\自动化测试\Website\test_report" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pact.PACT-20170616CE\PycharmProjects\UI自动化测试\自动化测试\Website\test_case" />
+      <recent name="C:\Users\pact.PACT-20170616CE\PycharmProjects\UI自动化测试\自动化测试\Website\test_case\page_object" />
+      <recent name="C:\Users\pact.PACT-20170616CE\PycharmProjects\UI自动化测试\自动化测试\Website" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_app.py">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自动化测试" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自动化测试/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for test_api.Test_Api.test2_authorize" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自动化测试/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api.Test_Api.test2_authorize&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_api.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自动化测试/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/自动化测试/testcase/test_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_app.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自动化测试/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/自动化测试/testcase/test_app.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自动化测试/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/自动化测试/testcase/test_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_api.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_group.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_api.Test_Api.test2_authorize" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_app.py" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_app.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_group.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_api.Test_Api.test2_authorize" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_api.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cc30971-b481-419d-b0ef-52e1cd2e5563" name="Default" comment="" />
+      <created>1566442334841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566442334841</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 47m 38s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 49m 39s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 50m 23s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 51m 37s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 53m 08s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 53m 57s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_api_Test_Api_test2_authorize - 2019.09.24 at 13h 54m 23s.xml">
+      <configuration name="Unittests for test_api.Test_Api.test2_authorize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_app_py - 2019.09.24 at 16h 53m 00s.xml">
+      <configuration name="Unittests in test_app.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_app_py - 2019.10.11 at 15h 54m 48s.xml">
+      <configuration name="Unittests in test_app.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_group_py - 2019.10.11 at 11h 33m 51s.xml">
+      <configuration name="Unittests in test_group.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37802908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.49284253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21633889" sideWeight="0.50715744" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37802908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2193646" sideWeight="0.49284253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21633889" sideWeight="0.50715744" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/自动化测试/PO/app_edit_del.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/自动化测试/testcase/test_app.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/自动化测试/testcase/test_api.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_report/2019-08-22 18_57_12 resule.html" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_report/HTMLTestRunner.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_report/BSTestRunner.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/run_test.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_report/2019-08-23 13_53_26 resule.html" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_report/2019-08-23 11_36_08 resule.html" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_report/2019-08-23 11_24_54 resule.html" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_case/test_login.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/driver/driver.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_case/model/function.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_case/model/myunit.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_case/page_object/BasePage.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/Website/test_case/page_object/LoginPage.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/unittest/result/20170423_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_search" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_login.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_group_edit.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_group_del.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_group_creat.py" />
+    <entry file="file://E:/软件/Python34练习/untitled/爬虫/venv1/venv/venv1/接口/unittest练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/unittest/unittest框架.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-940">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/group_creat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-237">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/app_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/app_creat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/api_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试test/testcase/test_group.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/testcase/test_app.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/report/report.html" />
+    <entry file="file://E:/软件/Python34练习/untitled/unittest练习/自动化学习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/软件/Python34练习/untitled/unittest练习/自动化免登录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试test/PO/base_page.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/PO/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/PO/api_search.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/PO/chrome.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/PO/api_edit.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/main.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试test/testcase/test_api.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/group_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/group_edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="21" column="101" lean-forward="true" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/report/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/chrome.py" />
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/软件/Python34练习/untitled/unittest练习/函数和类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/app_edit_del.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="72" column="103" lean-forward="false" selection-start-line="72" selection-start-column="103" selection-end-line="72" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/PO/api_edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自动化测试/testcase/test_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
