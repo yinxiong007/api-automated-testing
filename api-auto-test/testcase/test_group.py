@@ -19,7 +19,7 @@ class TestGroup(unittest.TestCase):
         sp.open(self.url)
 
         # 将用户名密码写入浏览器cookie
-        self.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMzA2NTg1ODE0NjgwNTIyNzUyIiwidGVuYW50SWQiOiIzMDY2MDM2MDAyOTUyODQ3MzYiLCJ1c2VyTmFtZSI6IjEzODI2NTgwODc0IiwiZXhwIjoxNTcxMjc3MDM0LCJ1c2VySWQiOiIzMDY1ODU4MTQ2ODA1MjI3NTIifQ.dZpIurzzGnx8Bxt5GBHXZdjT-pK5Rmx1WONInlLUzwjIkhDdlba9-YfgwCBMEbyxyt8V2CBmNEi6CDYkju_GPQ'})
+        self.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMzA2NTg1ODE0NjgwNTIyNzUyLDE4MGRmZTFjNTkzYjRlOTg5OGM1YTZmZGYyMjU1ZjUyIiwidGVuYW50SWQiOiIzMDY2MDM2MDAyOTUyODQ3MzYiLCJ1c2VyTmFtZSI6Inlpbnhpb25nIiwiZXhwIjoxNTc1MzA4ODI1LCJ1c2VySWQiOiIxODBkZmUxYzU5M2I0ZTk4OThjNWE2ZmRmMjI1NWY1MiJ9.yKPNgFdFlh8tf205Llj3kBUk_uvsgDj5Jf676XbBfnMqnSWYz3rATfivztHzqpjvMsQU3mZD829aj92RZTe6Ng'})
         sp.open(self.url)
         time.sleep(3)
         self.driver.implicitly_wait(20)

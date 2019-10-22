@@ -17,7 +17,7 @@ class TestApp(unittest.TestCase):
         sp.open(cls.url)
 
          #将用户名密码写入浏览器cookie
-        cls.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMzA2NTg1ODE0NjgwNTIyNzUyIiwidGVuYW50SWQiOiIzMDY2MDM2MDAyOTUyODQ3MzYiLCJ1c2VyTmFtZSI6IjEzODI2NTgwODc0IiwiZXhwIjoxNTcxMjc3MDM0LCJ1c2VySWQiOiIzMDY1ODU4MTQ2ODA1MjI3NTIifQ.dZpIurzzGnx8Bxt5GBHXZdjT-pK5Rmx1WONInlLUzwjIkhDdlba9-YfgwCBMEbyxyt8V2CBmNEi6CDYkju_GPQ'})
+        cls.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMzA2NTg1ODE0NjgwNTIyNzUyLDE4MGRmZTFjNTkzYjRlOTg5OGM1YTZmZGYyMjU1ZjUyIiwidGVuYW50SWQiOiIzMDY2MDM2MDAyOTUyODQ3MzYiLCJ1c2VyTmFtZSI6Inlpbnhpb25nIiwiZXhwIjoxNTc1MzA4ODI1LCJ1c2VySWQiOiIxODBkZmUxYzU5M2I0ZTk4OThjNWE2ZmRmMjI1NWY1MiJ9.yKPNgFdFlh8tf205Llj3kBUk_uvsgDj5Jf676XbBfnMqnSWYz3rATfivztHzqpjvMsQU3mZD829aj92RZTe6Ng'})
         sp.open(cls.url)
         time.sleep(3)
         cls.driver.implicitly_wait(20)
@@ -71,7 +71,7 @@ class TestApp(unittest.TestCase):
         sp.click_queding_loc()
         time.sleep(2)
         # 断言
-        self.assertEqual(sp.get_name_repeat(), '新增应用名称不能与已有应用名称相同，请重新修改')
+        self.assertEqual(sp.get_name_repeat(), '指定的应用名称已存在，请重新修改')
 
     def test4_app_edit(self):
         """编辑应用"""
