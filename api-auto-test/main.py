@@ -1,9 +1,14 @@
 import unittest
 import HTMLTestRunner
+import time
 
 #相对路径
 testcase_path = ".\\testcase"
-report_path = ".\\report\\report.html"
+#存放文件的目录
+report_dir = ".\\report"
+now = time.strftime("%Y-%m-%d %H_%M_%S")
+report_path = report_dir + '\\'+now+'_report.html'
+
 def creat_suite():
     uit = unittest.TestSuite()
     discover = unittest.defaultTestLoader.discover(testcase_path,pattern="test_*.py")
