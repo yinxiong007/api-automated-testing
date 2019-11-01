@@ -3,6 +3,7 @@ from selenium import webdriver
 from PO.group_creat import groupPage
 from PO.group_edit import group_editPage
 from PO.group_delete import group_delPage
+from PO.base_page import Screen
 
 
 import time
@@ -85,3 +86,14 @@ class TestGroup(unittest.TestCase):
         sp.click_queding_loc()
         time.sleep(2)
 
+    #@Screen(driver)
+    def test5_group_del3(self):
+        """删除分组--存在绑定关系"""
+        sp = group_delPage(self.driver)
+        sp.click_kaifang_api_loc()
+        sp.click_group_loc()
+        sp.mouse_loc()
+        sp.click_api_del_loc()
+        time.sleep(3)
+        self.assertEqual(sp.get_group_del_api(),'API管理')
+        sp.click_group_del_close()
