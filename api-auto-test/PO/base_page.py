@@ -36,3 +36,19 @@ class Action(object):
         except AttributeError:
             print(u"%s未找到%s"%(self,loc))
 
+#封装的截图装饰器
+class Screen(object):
+    u'''这个是截图功能的装饰器'''
+    def __init__(self, driver):
+        self.driver = driver
+    def __call__(self, f):
+        def inner(*args):
+            try:
+                return f(*args)
+            except:
+                import time
+                nowTime = time.strftime("%Y_%m_%d_%H_%M_%S")
+                pic_path = "C:\\Users\\pact.PACT-20170616CE\\PycharmProjects\\UI自动化测试\\api-auto-test\\report\\screenshot" + "\\" + nowTime + ".png"
+                self.driver.get_screenshot_as_file(pic_path)
+                raise
+        return inner
