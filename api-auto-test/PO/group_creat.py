@@ -13,9 +13,9 @@ class groupPage(base_page.Action):
     #api分组
     group_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[3]/li/ul/div[1]/span/li/span')
     #鼠标悬停
-    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/table/thead/tr/th[2]/div')
+    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[2]/table/thead/tr/th[3]/div')
     #创建分组
-    api_creat_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div/div/button')
+    api_creat_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div/div/button')
     #分组名称
     name_loc = (By.XPATH,'/html/body/div[2]/div/div[2]/div/div[1]/div/div/form/div[1]/div/div[1]/input')
     #描述
