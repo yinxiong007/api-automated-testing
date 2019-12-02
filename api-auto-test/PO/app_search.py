@@ -13,15 +13,15 @@ class app_search_Page(base_page.Action):
     #应用管理
     app_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[4]/li/ul/div/span/li/span')
     #鼠标悬停
-    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/table/thead/tr/th[2]/div')
+    shubiao_loc = (By.XPATH,'//tr//th[3]//div[@class="cell"]')
     #应用名称输入框
-    name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div[1]/div/div/input')
+    name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div[1]/div/div/input')
     #查询按钮
-    search_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div[2]/div/button')
+    search_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div[2]/div/button')
     # 搜索成功后的内容
-    content_loc = (By.XPATH, '//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[3]/table/tbody/tr/td[1]/div/button/span')
+    content_loc = (By.XPATH, '//*[@id="app"]/div/div[3]/section/main/div[1]/div[3]/table/tbody/tr/td[1]/div/button/span')
     #没有搜到对应的内容
-    null_content_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[3]/div/span')
+    null_content_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[3]/div/span')
 
 
     #操作元素

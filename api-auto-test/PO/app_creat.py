@@ -10,13 +10,13 @@ class app_creat_Page(base_page.Action):
     #通过xpath进行定位元素
 
     #调用api
-    diaoyong_api_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[4]/li/div')
+    diaoyong_api_loc = (By.CSS_SELECTOR,'#app > div > div.el-scrollbar.hideSidebar.sidebar-container-fixed > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(4) > li > div')
     #应用管理
     app_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[4]/li/ul/div/span/li/span')
     #鼠标悬停
-    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/table/thead/tr/th[2]/div')
+    shubiao_loc = (By.XPATH,'//tr//th[3]//div[@class="cell"]')
     #创建应用
-    app_creat_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/button')
+    app_creat_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/button/span')
     #应用名称
     name_loc = (By.CSS_SELECTOR,'body > div.el-dialog__wrapper.ps-dialog > div > div.el-dialog__body > div > div.scrollbar-wrapper.el-scrollbar__wrap > div > div > form > div:nth-child(1) > div > div.el-input > input')
     #描述

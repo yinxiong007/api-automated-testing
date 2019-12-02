@@ -86,7 +86,7 @@ class TestGroup(unittest.TestCase):
         sp.click_queding_loc()
         time.sleep(2)
 
-    #@Screen(driver)
+    # @Screen(driver)
     def test5_group_del3(self):
         """删除分组--存在绑定关系"""
         sp = group_delPage(self.driver)

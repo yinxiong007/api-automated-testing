@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PO" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (软件)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (UI自动化测试)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

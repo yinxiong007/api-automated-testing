@@ -10,13 +10,13 @@ class app_edit_Page(base_page.Action):
     #通过xpath进行定位元素
 
     #调用api
-    diaoyong_api_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[4]/li/div')
+    diaoyong_api_loc = (By.CSS_SELECTOR,'#app > div > div.el-scrollbar.hideSidebar.sidebar-container-fixed > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(4) > li > div')
     #应用管理
     app_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[4]/li/ul/div/span/li/span')
     #鼠标悬停
-    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/table/thead/tr/th[2]/div')
+    shubiao_loc = (By.XPATH,'//tr//th[3]//div[@class="cell"]')
     #编辑按钮
-    app_edit_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[4]/div/button[1]')
+    app_edit_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[4]/div/button[1]/span')
     #应用名称
     name_loc = (By.CSS_SELECTOR,'body > div.el-dialog__wrapper.ps-dialog > div > div.el-dialog__body > div > div.scrollbar-wrapper.el-scrollbar__wrap > div > div > form > div:nth-child(1) > div > div > input')
     #描述
@@ -61,20 +61,20 @@ class app_del_Page(base_page.Action):
     #应用管理
     app_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[4]/li/ul/div/span/li/span')
     #鼠标悬停
-    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/table/thead/tr/th[2]/div')
+    shubiao_loc = (By.XPATH,'//tr//th[3]//div[@class="cell"]')
     #删除按钮
-    app_del_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[4]/div/button[2]')
+    app_del_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[4]/div/button[2]')
     #确定
     queding_loc = (By.CSS_SELECTOR,'body > div.el-message-box__wrapper > div > div.el-message-box__btns > button.el-button.el-button--default.el-button--small.el-button--primary')
     #取消
     quxiao_loc = (By.CSS_SELECTOR,'body > div.el-message-box__wrapper > div > div.el-message-box__btns > button:nth-child(1)')
 
     #进入应用详情元素
-    name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[3]/table/tbody/tr[1]/td[1]/div/button')
+    name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[3]/table/tbody/tr[1]/td[1]/div/button')
     #显示密钥
-    xianshi_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/div[2]/div[2]/div/button[1]')
+    xianshi_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/div[1]/div[2]/div[2]/div[2]/div/button[1]')
     #隐藏密钥
-    yincang_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[2]/div[2]/div[2]/div/button[1]')
+    yincang_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/div[1]/div[2]/div[2]/div[2]/div/button[1]')
 
     #操作元素
     def click_diaoyong_api_loc(self):
