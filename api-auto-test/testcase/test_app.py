@@ -35,9 +35,8 @@ class TestApp(unittest.TestCase):
 
     def test1_app_creat(self):
         """创建应用"""
-        # 实例化api分组页面
+        # 实例化app页面
         sp = app_creat_Page(self.driver)
-        sp.open(self.url)
         sp.click_diaoyong_api_loc()
         sp.click_app_loc()
         sp.mouse_loc()
@@ -49,10 +48,7 @@ class TestApp(unittest.TestCase):
     def test2_app_creat(self):
         """创建应用--应用名称为空"""
         sp = app_creat_Page(self.driver)
-        sp.open(self.url)
-        sp.click_diaoyong_api_loc()
-        sp.click_app_loc()
-        sp.mouse_loc()
+        time.sleep(2)
         sp.click_app_creat_loc()
         sp.input_content_loc('','test')
         sp.click_queding_loc()
@@ -65,6 +61,7 @@ class TestApp(unittest.TestCase):
         sp.open(self.url)
         sp.click_diaoyong_api_loc()
         sp.click_app_loc()
+        time.sleep(2)
         sp.mouse_loc()
         sp.click_app_creat_loc()
         sp.input_content_loc('app_test1','test')
@@ -80,6 +77,7 @@ class TestApp(unittest.TestCase):
         sp.click_diaoyong_api_loc()
         sp.click_app_loc()
         sp.mouse_loc()
+        time.sleep(2)
         sp.click_app_edit_loc()
         sp.clear_content_loc()
         sp.input_content_loc('xiugai1','test1')
