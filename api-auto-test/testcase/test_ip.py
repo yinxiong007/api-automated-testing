@@ -18,7 +18,8 @@ class TestIp(unittest.TestCase):
         sp.open(self.url)
 
         # 将用户名密码写入浏览器cookie
-        self.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMzA2NTg1ODE0NjgwNTIyNzUyLDE4MGRmZTFjNTkzYjRlOTg5OGM1YTZmZGYyMjU1ZjUyIiwidGVuYW50SWQiOiIzMDY2MDM2MDAyOTUyODQ3MzYiLCJ1c2VyTmFtZSI6Inlpbnhpb25nIiwiZXhwIjoxNTc1MzA4ODI1LCJ1c2VySWQiOiIxODBkZmUxYzU5M2I0ZTk4OThjNWE2ZmRmMjI1NWY1MiJ9.yKPNgFdFlh8tf205Llj3kBUk_uvsgDj5Jf676XbBfnMqnSWYz3rATfivztHzqpjvMsQU3mZD829aj92RZTe6Ng'})
+        # self.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMTgwZGZlMWM1OTNiNGU5ODk4YzVhNmZkZjIyNTVmNTIiLCJ0ZW5hbnRJZCI6IjMwNjYwMzYwMDI5NTI4NDczNiIsInVzZXJOYW1lIjoieWlueGlvbmciLCJleHAiOjE1Nzg5NDA4MTksInVzZXJJZCI6IjE4MGRmZTFjNTkzYjRlOTg5OGM1YTZmZGYyMjU1ZjUyIn0.Dq5U_Qb-gpoAzDqsNW2v37kkAcomxDM8xIxWM5qImrzYJ9p3ErCtW_uMgYBiK4HbBsJoTgeAHu8wucIMiUkzFg'})
+        sp.send_cookie()
         sp.open(self.url)
         time.sleep(3)
         self.driver.implicitly_wait(20)
@@ -76,8 +77,8 @@ class TestIp(unittest.TestCase):
     def test4_ip_creat(self):
         """创建ip--名称输入空格"""
         sp = ip_creat_Page(self.driver)
-        sp.click_kaifang_api_loc()
-        sp.click_ip_loc()
+        # sp.click_kaifang_api_loc()
+        # sp.click_ip_loc()
         sp.mouse_loc()
         sp.click_ip_creat_loc()
         sp.input_content_loc(' ','test')
