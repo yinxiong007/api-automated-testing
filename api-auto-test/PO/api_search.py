@@ -13,11 +13,11 @@ class SearchPage(base_page.Action):
     #api管理
     api_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[3]/li/ul/div[2]/span/li/span')
     #api名称输入框
-    api_name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div[1]/div/div/input')
+    api_name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div[1]/div/div/input')
     #查询按钮
-    search_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div[4]/div/button')
+    search_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div[4]/div/button')
     #搜索成功后的内容
-    content_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[3]/table/tbody/tr/td[1]/div/button/span')
+    content_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[3]/table/tbody/tr/td[1]/div/button/span')
 
     #操作元素
     def click_kaifang_api_loc(self):

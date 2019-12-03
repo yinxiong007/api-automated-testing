@@ -13,21 +13,23 @@ class api_editPage(base_page.Action):
     #api管理
     api_loc = (By.XPATH,'//*[@id="app"]/div/div[2]/div[1]/div/ul/div[3]/li/ul/div[2]/span/li/span')
     # 鼠标悬停
-    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div[2]/label')
+    shubiao_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div[2]/label')
     #api名称输入框
-    api_name_input_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/form/div[1]/div/div/input')
+    api_name_input_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/form/div[1]/div/div/input')
     #api名称
-    api_name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[3]/table/tbody/tr[2]/td[1]/div/button/span')
+    api_name_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[3]/table/tbody/tr[1]/td[1]/div/button/span')
     #api授权
-    api_authorize_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/section/main/div[1]/div[4]/div[2]/table/tbody/tr[2]/td[5]/div/button[2]/span')
+    api_authorize_loc = (By.XPATH,'//*[@id="app"]/div/div[3]/section/main/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[5]/div/button[2]/span')
     #api授权界面应用id查询输入框
-    appid_input_search_loc = (By.CSS_SELECTOR,'body > div.el-dialog__wrapper.ps-dialog > div > div.el-dialog__body > div > div.scrollbar-wrapper.el-scrollbar__wrap > div > div > div > div.el-row > div.el-col.el-col-16 > form > div:nth-child(2) > div > div > input')
+    appid_input_search_loc = (By.XPATH,'/html//div/div[2]/div/div[1]/div/div/div/div[3]/div[1]/form/div[2]/div/div/input')
     #api授权界面应用id查询按钮
-    appid_search_loc = (By.CSS_SELECTOR,'body > div.el-dialog__wrapper.ps-dialog > div > div.el-dialog__body > div > div.scrollbar-wrapper.el-scrollbar__wrap > div > div > div > div.el-row > div.el-col.el-col-16 > form > div:nth-child(3) > div > button')
+    appid_search_loc = (By.XPATH,'/html//div/div[2]/div/div[1]/div/div/div/div[3]/div[1]/form/div[3]/div/button')
     #添加app
-    app_add_loc = (By.XPATH,'/html/body/div[2]/div/div[2]/div/div[1]/div/div/div/div[3]/div[1]/div[1]/div[4]/div[2]/table/tbody/tr/td[4]/div/button/span')
+    app_add_loc = (By.XPATH,'/html//div/div[2]/div/div[1]/div/div/div/div[3]/div[1]/div[1]/div[4]/div[2]/table/tbody/tr/td[4]/div/button/span')
     #确定
-    queding_loc = (By.XPATH,'/html/body/div[2]/div/div[3]/div/div/button[2]/span')
+    queding_loc = (By.XPATH,'/html//div/div[3]/div/div/button[2]/span')
+    # 绑定成功提示信息
+    bangding_tips_loc = (By.XPATH,'//div/p[@class="el-message__content"]')
     #授权信息
     api_shouquan_loc =(By.XPATH,'//*[@id="tab-1"]')
     #解绑
@@ -36,6 +38,8 @@ class api_editPage(base_page.Action):
     xiangqing_search_loc = (By.XPATH,'//*[@id="pane-1"]/div/div[1]/div[2]/form/div/div/div/input')
     #api详情查询按钮
     search_loc = (By.XPATH,'//*[@id="pane-1"]/div/div[1]/div[2]/form/button')
+    # 确定解绑
+    jiebang_queding_loc = (By.XPATH,'/html//div/div[3]/button[2]/span')
     #解绑成功后的提示信息
     jiebang_tips_loc = (By.CSS_SELECTOR,'body > div.el-message.el-message--success')
 
@@ -59,6 +63,8 @@ class api_editPage(base_page.Action):
         self.find_element(*self.xiangqing_search_loc).send_keys(value)
     def click_search_loc(self):
         self.find_element(*self.search_loc).click()
+    def click_jiebang_queding_loc(self):
+        self.find_element(*self.jiebang_queding_loc).click()
     #解绑成功的提示
     def get_jiebang_tips_loc(self):
         return self.find_element(*self.jiebang_tips_loc).text
@@ -73,3 +79,5 @@ class api_editPage(base_page.Action):
         self.find_element(*self.app_add_loc).click()
     def click_queding_loc(self):
         self.find_element(*self.queding_loc).click()
+    def get_bangding_tips_loc(self):
+        return self.find_element(*self.bangding_tips_loc).text
