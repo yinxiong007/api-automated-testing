@@ -36,6 +36,13 @@ class Action(object):
         except AttributeError:
             print(u"%s未找到%s"%(self,loc))
 
+    # 免验证码登录
+    def  send_cookie(self):
+        cookie = {'name': 'token',
+                               'value': 'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMTgwZGZlMWM1OTNiNGU5ODk4YzVhNmZkZjIyNTVmNTIiLCJ0ZW5hbnRJZCI6IjMwNjYwMzYwMDI5NTI4NDczNiIsInVzZXJOYW1lIjoieWlueGlvbmciLCJleHAiOjE1Nzg5NDA4MTksInVzZXJJZCI6IjE4MGRmZTFjNTkzYjRlOTg5OGM1YTZmZGYyMjU1ZjUyIn0.Dq5U_Qb-gpoAzDqsNW2v37kkAcomxDM8xIxWM5qImrzYJ9p3ErCtW_uMgYBiK4HbBsJoTgeAHu8wucIMiUkzFg'}
+        self.driver.add_cookie(cookie)
+
+
 #封装的截图装饰器
 class Screen(object):
     u'''这个是截图功能的装饰器'''
