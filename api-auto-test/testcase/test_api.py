@@ -17,7 +17,7 @@ class Test_Api(unittest.TestCase):
         sp.open(self.url)
 
         # 将用户名密码写入浏览器cookie
-        self.driver.add_cookie({'name':'token','value':'BearereyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWRzIjoiMTgwZGZlMWM1OTNiNGU5ODk4YzVhNmZkZjIyNTVmNTIiLCJ0ZW5hbnRJZCI6IjMwNjYwMzYwMDI5NTI4NDczNiIsInVzZXJOYW1lIjoieWlueGlvbmciLCJleHAiOjE1Nzg5NDA4MTksInVzZXJJZCI6IjE4MGRmZTFjNTkzYjRlOTg5OGM1YTZmZGYyMjU1ZjUyIn0.Dq5U_Qb-gpoAzDqsNW2v37kkAcomxDM8xIxWM5qImrzYJ9p3ErCtW_uMgYBiK4HbBsJoTgeAHu8wucIMiUkzFg'})
+        sp.send_cookie()
         sp.open(self.url)
         time.sleep(3)
         self.driver.implicitly_wait(20)
