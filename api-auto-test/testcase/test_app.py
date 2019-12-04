@@ -121,11 +121,11 @@ class TestApp(unittest.TestCase):
         search.click_diaoyong_api_loc()
         search.click_app_loc()
         search.mouse_loc()
-        search.input_name_loc('daxiong')
+        search.input_name_loc('dada')
         search.click_search_loc()
         time.sleep(2)
         # 断言
-        self.assertEqual(search.get_content_loc(), 'daxiong')
+        self.assertEqual(search.get_content_loc(), 'dada')
 
     def test9_app_search(self):
         """模糊搜索"""
